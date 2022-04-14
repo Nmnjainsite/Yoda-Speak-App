@@ -1,0 +1,67 @@
+
+body{
+    
+    color:blue;
+    background-color: skyblue  
+}
+
+
+h1{
+    color: purple;
+    border-radius: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: yellow;
+        padding: 1.5rem;
+    max-width: 100%;
+ 
+
+
+}
+
+#btn-trnslt{
+    padding: 0.5rem;
+background-color: yellow;
+border-radius: 0.7rem;
+margin:auto;
+color: black;
+
+}
+
+#txt-input{
+    display: block;
+    padding: 1rem;
+    margin-bottom: auto;
+    border: 1px solid black;
+    max-width: 80%;
+}
+
+#output{
+    padding: 4rem;
+    
+    border: 1px solid black;
+    height: 5vh;
+    max-width: 90%;
+    display: block;
+    
+
+  
+}
+
+.showoutput{
+    padding-top: 1rem;
+    margin: 0.5;
+    color: black;
+}
+
+#about{
+    color: purple;
+    text-align: center;
+    background-color: yellow;
+   border-radius: 1rem;
+   max-width: 400%;
+   padding: 1rem;
+   margin: 1rem;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
