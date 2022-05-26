@@ -1,67 +1,88 @@
 
 body{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+flex-wrap: wrap;
+font-family: cursive;
     
-    color:blue;
-    background-color: skyblue  
+    background-color: skyblue  ;
+
+   
 }
 
 
 h1{
-    color: purple;
-    border-radius: 0.5rem;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    background-color: yellow;
+    color: black;
+    border-radius: 1rem;
+    
+    background-color: darkcyan;
         padding: 1.5rem;
-    max-width: 100%;
+  
  
 
 
 }
+#txt-input{
+    padding: 5rem;
+    /* margin-bottom: auto; */
+    border: 2px solid black;
+    border-radius: 1rem;
+    max-width: 400px;
+}
 
 #btn-trnslt{
+    margin: 1rem;
     padding: 0.5rem;
-background-color: yellow;
-border-radius: 0.7rem;
-margin:auto;
+border-radius: 0.5rem;
+border: 1px solid black;
 color: black;
+background-color: teal;
+cursor: pointer;
+} 
 
-}
-
-#txt-input{
-    display: block;
-    padding: 1rem;
-    margin-bottom: auto;
-    border: 1px solid black;
-    max-width: 80%;
-}
 
 #output{
-    padding: 4rem;
-    
     border: 1px solid black;
-    height: 5vh;
-    max-width: 90%;
-    display: block;
-    
-
-  
+    border-radius: 1rem;
+    padding: 4rem;
+    border: 1px solid black;
+    height: 5%;
+    /* font-size: large; */
 }
 
 .showoutput{
     padding-top: 1rem;
-    margin: 0.5;
+    margin: 1rem;
     color: black;
 }
 
 #about{
-    color: purple;
+    color: black;
     text-align: center;
-    background-color: yellow;
+    background-color: darkcyan;
+    border: 1px solid turquoise;
    border-radius: 1rem;
-   max-width: 400%;
-   padding: 1rem;
-   margin: 1rem;
+   max-width: 100%;
+   padding:1rem;
+   margin-top: 4rem;
     
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
  }
+
+ footer{
+    padding: 1rem ;
+   border: 1px solid black;
+   border-radius: 1rem;
+    margin: 2rem;
+   color: black;
+      font-size: 18px;
+      background-color: teal;
+      text-align: center;
+  }
+  
+  li{
+      list-style: none;
+      display: inline;
+      margin: 0.7rem;
+  }
